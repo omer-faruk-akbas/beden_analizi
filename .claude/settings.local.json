@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sudo apt update)",
+      "Bash(sudo apt install python3-venv python3-pip -y)",
+      "Bash(python3 opencv_basit_ornek.py)",
+      "Bash(python3 -m venv venv)",
+      "Bash(source venv/bin/activate)",
+      "Bash(pip install opencv-python)",
+      "Bash(source .venv/bin/activate)",
+      "Bash(pip install Pillow)"
+    ],
+    "deny": []
+  }
+}
